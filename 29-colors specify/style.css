@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+/*colors name*/
+.sporty {
+    color: red;
+}
+/*hex values*/
+.casual {
+    color: #ffffff;
+    background-color:red;
+}
+/*rgba*/
+.card {
+   background-color: rgba(0, 0, 0, 0.5);
+}
+

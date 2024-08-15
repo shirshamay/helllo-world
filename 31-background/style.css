@@ -1,0 +1,18 @@
+.hero {
+    align-items: center;
+    display: flex;
+    padding: 0 20px;
+    flex-direction: column;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: coral;
+    background-image: url(./sky\ for\ web.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*another cool thing we can do is to do a linear gradient*/
+    background: linear-gradient(to bottom, lightblue, darkblue);
+}
+/*to do the same thing but shortly , see this example
+background: url(./sky\for\webp) no-repeat center*/
+

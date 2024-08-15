@@ -1,0 +1,10 @@
+.container {
+    max-width: 900px;
+}
+.img {
+    max-width: 100%;
+    /* filter:grayscale(100%); */
+    /* -webkit-filter: blur(70%); */
+    /* filter: blur(70%); */
+    filter: brightness(50%);
+}

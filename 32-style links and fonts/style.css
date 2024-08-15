@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+a:hover {
+    color:red;
+}
+a:active {
+    background-color: yellow;
+}
+a:focus {
+    background: green;
+}
+.fa-facebook {
+    color: blue;
+}

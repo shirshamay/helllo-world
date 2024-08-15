@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'roboto','Franklin Gothic Medium';
+    line-height: 1.5;
+}
+/* this is a nesting which means we can put the styles of what inside he intro class and give them
+different styles*/
+.intro {
+    background-color: #fd5c63;
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    }
+
+    a {
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+        color: lightgray;
+    }
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+}
+.container {
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;    
+}
+.box {
+    background-color: #fff;
+    border: 10px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px lightgray;
+    margin: 20px;
+    padding: 20px;
+}
+@media (max-width:770px) {
+    .intro {
+        height: 40vh;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    .box h3, p {
+        font-size: 2rem; 
+    } 
+}
+
+
+
+
+

@@ -1,0 +1,14 @@
+* {
+    border: 3px solid red;
+}
+
+
+body {
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+}
+.box {
+    margin: 15px 10px 10px 15px;
+    padding: 20px;
+    max-width: 300px;
+    background-color: coral;
+}

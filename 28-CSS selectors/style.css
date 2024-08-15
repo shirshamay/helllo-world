@@ -1,0 +1,32 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 1.4;
+}
+h2 {
+    font-size: 1.5rem;
+    font-weight: 650px;
+    color:red;
+    text-indent: 15px;
+    text-align: left;
+}
+a {
+    color: blue;
+    text-decoration:underline;
+}
+#container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 25px;
+}
+.sporty {
+    color:red;
+}
+.casual {
+    color:blue;
+}
+.formal {
+    color: brown;
+}
+

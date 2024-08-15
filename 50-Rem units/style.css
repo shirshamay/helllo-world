@@ -1,0 +1,15 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'poppins', sans-serif;
+}
+h1 {
+    font-size: 2rem;
+    /*rem is a unit multiply for example the default of h2 text size is 16 so we choose 2rem text size which means 32 
+    if we were chose 3 rem then it would be 3*16=48 . we can put html {} on the top of the 
+    css file and put a font size there which will effect every text we put with the helop of rem*/
+}

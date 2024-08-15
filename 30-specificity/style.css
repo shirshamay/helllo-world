@@ -1,0 +1,7 @@
+.container h1 {
+    color:blue;
+}
+h1 {
+    color:red;
+}
+/*ID's have a higher specificity than class*/

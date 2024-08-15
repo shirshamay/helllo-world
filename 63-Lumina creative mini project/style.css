@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'opensans';
+}
+img {
+    max-width: 100%;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+.header {
+    margin: 1.5rem auto;
+}
+.header .logo {
+    width: 130px;
+}
+.header .header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-menu {
+    display: flex;
+    gap: 1rem; 
+    a {
+        text-decoration: none;
+        color: black;
+        &:hover {
+            color: gray;
+        }
+    }
+    li {
+        list-style-type: none;
+    }
+    .current {
+        background-color: rgb(252, 241, 228);
+        padding: 10px;
+    }
+}
+.container-page  h1{
+    padding: 140px;
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 500;
+}
+.container-page .passionate, .innovation {
+    background-color: rgb(252, 241, 228);
+}
+.container-photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 30px;
+}
+.container-photos img {
+    width: 400px;
+    height: 310px;
+    border-radius: 6px;
+}
+.container-photos img:hover {
+    opacity: 0.9;
+}
+.container-endpage {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.endlogo {
+    order: 1; /* ממקם את הלוגו ראשון */
+    width: 130px;
+}
+
+.info-page {
+    order: 2; /* ממקם את המידע אחרון */
+}
+
+.info-icons {
+    order: 3;
+    .fa-brands {
+        font-size: x-large;
+        margin-top: 10px;
+    }
+}
+.Inspired , .Ingenuity{
+     background-color: rgb(252, 241, 228);
+}
+.services {
+    background-color: rgb(50, 48, 48);
+    color: white;
+    height: 40vh;
+    padding: 2rem;
+    font-family: 'poppins';
+}
+.services-info {
+    display: flex;
+    gap: 2rem;
+    h4 {
+        font-size: 1.3rem;
+        margin-bottom: 1.2rem;
+    }
+}
+.services-heading {
+    margin-bottom: 1.2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.container-flex {
+    display: flex;
+    margin: 5rem;
+    font-family: 'poppins';
+    flex-direction: column;
+    h4 {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+}
+.heading-team {
+    margin: 1.2rem;
+    position: relative;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'poppins';
+}
+.images {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+.image {
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-page2 {
+    background-color: rgb(41, 39, 39);
+    height: 65vh;
+    font-size: 2rem;
+    color: white;
+    h1 {
+      padding: 130px;
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 500;  
+    }
+ }
+
+.Entusiastic, .Creativity {
+    background-color: rgb(252, 241, 228);
+    color: black;
+}
+.form-heading {
+    padding: 2rem 0 3rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'poppins';
+}
+.contact p {
+    text-align: center;
+    margin-top: -45px;
+    margin-bottom: 2.5rem;
+}
+.container-form {
+    margin: 2rem 0;
+    text-align: center;
+}
+.container-form input,
+.container-form textarea {
+    border: none;
+    border-bottom: 1px darkgray solid;
+    width: 60%;
+    font-family: inherit;
+    font-size: inherit;
+    padding-bottom: 1rem;
+}
+.container-form textarea {
+    height: 100px;
+}
+.container-form textarea:focus,
+input:focus {
+    outline: 0;
+}
+.btn {
+    padding: 1rem 2rem;
+    margin-top: 30px;
+    display: inline-block;
+    border: 1px solid #333;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    width: 30%;
+}
+.btn:hover {
+    background-color: #333;
+    color: white;
+}
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+@media (max-width:1014px) {
+    .container-page2 h1 {
+        font-size: 5rem;
+        padding: 70px;
+    }
+}
+@media (max-width:768px) {
+    .container-page2 h1 {
+        padding: 60px;
+        font-size: 4rem;
+    }
+    .header .header-flex {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .main-menu li {
+        font-size: 1.5rem;
+    }
+    .container-endpage {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+
+    }
+}
+@media (max-width:516px) {
+    .container-page2 h1 {
+        font-size: 4rem;
+        padding: 40px;
+    }
+}
+
+

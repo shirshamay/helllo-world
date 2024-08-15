@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'poppins','Franklin Gothic Medium';
+    line-height: 1.5;
+    scroll-behavior: smooth;
+    font-size: 18px;
+}
+.menu {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: linear-gradient(45deg, #f00,#00f);
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+.menu .transparent {
+    background: linear-gradient(
+        45deg,
+        rgba(255,0,0,0.8),
+        rgba(0,0,255,0.8)
+    );
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+.box#Home {
+    margin-bottom: 100px;
+}
+p {
+    margin-bottom: 20px;
+}
+img {
+    max-width: 100%;
+}
+.menu ul {
+    list-style-type: none;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.menu a:hover {
+    color: #f00;
+}
+.section h2 {
+    background: linear-gradient(45deg, #f00,#00f);
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+.flex-container {
+    display: block;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.box {
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+}
+p {
+    font-size: small;
+}
+.box-1 p {
+    margin-top: 5px;
+}
+@media (max-width:500px) {
+    .menu {
+        padding: 15px;
+    }
+    .menu li {
+        font-size: 20px;
+    }
+    .section p {
+        font-size: 1rem;
+    }
+}

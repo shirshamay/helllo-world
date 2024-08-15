@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+
+.container {
+    max-width: 700px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.box {
+    width: 600px;
+    height: 150px;
+    background-color: white;
+    margin: 30px 0px;
+    padding: 30px 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px black;
+}
+
+.box-galaxy {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: white url(./galaxy.png) no-repeat center right;
+    background-size: 220px;
+}
+
+.box-galaxy h2 {
+    margin-bottom: 20px;
+    color: #49A9EF;
+}
+
+.box-galaxy p {
+    margin-bottom: 20px;
+}
+
+.box-galaxy a {
+    background-color: #49A9EF;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.box-iphone {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: white url(./iphone\ 15.webp) no-repeat center right;
+    background-size: 220px;
+}
+
+.box-iphone h2 {
+    margin-bottom: 20px;
+    color: black
+}
+
+.box-iphone p {
+    margin-bottom: 20px;
+}
+
+.box-iphone a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.box-xiaomi {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: white url(./xiaomi.webp) no-repeat center right;
+    background-size: 200px;
+}
+
+.box-xiaomi h2 {
+    margin-bottom: 20px;
+    color: silver
+}
+
+.box-xiaomi p {
+    margin-bottom: 20px;
+}
+
+.box-xiaomi a {
+    background-color: silver;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 6px;
+}

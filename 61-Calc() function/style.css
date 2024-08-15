@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --container-width: 1000px
+}
+.container {
+    width: var(--container-width);
+    height: 200px;
+    background-color: black;
+    display: flex;
+}
+.item1 {
+    background-color: coral;
+    width: calc(500px - 100px);
+    height: 200px;
+}
