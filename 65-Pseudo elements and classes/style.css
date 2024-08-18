@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    line-height: 1.6;
+}
+p {
+    margin-bottom: 1rem;
+}
+input {
+    width: 100%;
+    padding: 3px;
+}
+p::first-letter {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 3rem;
+}
+p::first-line {
+    color: blueviolet;
+}
+/* When we add required to element we don't need to put two :: */
+input:required {
+    border-color: red;
+} 
+/* we can also do that like that*/
+input[required] {
+    background-color: azure;
+}
+input::file-selector-button {
+    font-weight: bold;
+    color: dodgerblue;
+    background-color: white;
+    padding: 0.5rem;
+    border: thin solid gray;
+    border-radius: 3px;
+}
+.container-2 {
+    margin-top: 4rem;
+}
+.container-2 ul li:first-child {
+    background-color: blue;
+}
+.container-2 ul li:last-child {
+    background-color: green;
+}
+.container-2 ul li:nth-child(5) {
+    background-color: bisque;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+    li {
+        list-style-type: none;
+    }
+    ul {
+        display: flex;
+        gap: 8px;
+    }
+}
+
+.menu ul li:nth-child(odd) {
+    background-color: lightgreen;
+}
+.menu ul li:nth-child(even) {
+    background-color: beige;
+}

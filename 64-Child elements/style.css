@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*select all the p elements*/
+.container > p {
+    padding: 1rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+.container > a {
+    color: rebeccapurple;
+}
+/*get the imidiate sibling link after h1 get effect with those changes*/
+.container h1 + a {
+    color: lightgreen;
+    font-size: large;
+}
