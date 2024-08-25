@@ -1,0 +1,17 @@
+.container {
+    max-width: 900px;
+    position: relative;
+    background-color: #f4f4f4;
+    height: 600px;
+    margin: 130px auto;
+}
+img {
+    width: 50%;
+}
+.logo {
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    transform: translate(-50%, 50%);
+}
+
