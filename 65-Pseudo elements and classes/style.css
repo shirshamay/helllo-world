@@ -61,7 +61,6 @@ input::file-selector-button {
         gap: 8px;
     }
 }
-
 .menu ul li:nth-child(odd) {
     background-color: lightgreen;
 }

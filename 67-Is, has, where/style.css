@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 1000px;
+    height: 100px;
+}
+/*Example for using is*/
+a:is(:focus :hover) {
+    background-color: pink;
+}
+.container:is(h1, p) {
+    color: antiquewhite;
+}
+/*Example for using where (notice where has a lower specificity)*/
+.container:where(h1, p) {
+    background-color: aquamarine;
+}
+/*Example for using has (it allows to select an element based on his children, it means if there is p with strong element
+then it will work on all the container)*/
+.container:has(p strong) {
+    color: blueviolet;
+}

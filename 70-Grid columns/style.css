@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1100px;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+.item {
+    background-color: coral;
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+}
+.item-grid {
+    /*here er will put grid-template-columns and for example if we want that every item will be 100px wide and
+    it will create 2 columns then we need to write 100px twice:*/
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+.container2 {
+    max-width: 1100px;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+.item2 {
+    background-color: coral;
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+}
+/*another example for this is using fraction and change each column size*/
+.item-grid2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 20px;
+}

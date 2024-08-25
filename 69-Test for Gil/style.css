@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'poppins';
+}
+.card {
+    background-color: #fd5c63;
+    margin: 20px;
+    padding: 10px;
+    width: 80vw;
+    border: 2px;
+    border-radius: 3px;
+}
+h1::first-letter {
+    font-size: 3rem;
+}
+form {
+    text-align: center;
+    margin-top: 2rem;
+}
+.container img {
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    transition: all ease-in-out 0.5s;
+}
+.container img:hover {
+    width: 40%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    gap: 10px;
+}

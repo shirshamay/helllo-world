@@ -26,6 +26,15 @@ html, body {
         rgba(0,0,255,0.8)
     );
 }
+section p:first-of-type {
+    background-color: lightyellow;
+}
+.section li:nth-child(odd) {
+    background-color: #f00;
+}
+.section li:nth-child(even) {
+    background-color: rgb(51, 150, 236);
+}
 .menu a {
     text-decoration: none;
     color: white;
@@ -46,6 +55,16 @@ img {
     justify-content: center;
     align-items: center;
     gap: 3rem;
+}
+li:nth-child(even) {
+    background-color: #eee;
+}
+li:nth-child(odd) {
+    background-color: yellow;
+}
+.section:has(img) {
+    background-color: #f4f4f4;
+    padding: 20px;
 }
 .menu a:hover {
     color: #f00;
